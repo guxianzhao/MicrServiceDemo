@@ -1,0 +1,41 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "PollyDomo/1.0.0": {
+        "dependencies": {
+          "Polly": "7.2.0"
+        },
+        "runtime": {
+          "PollyDomo.dll": {}
+        }
+      },
+      "Polly/7.2.0": {
+        "runtime": {
+          "lib/netstandard2.0/Polly.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.2.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "PollyDomo/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Polly/7.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-fbtSRyqVSd5AS7O4Pm2Mnw7zKKJk7Z3rOfNnKSTfPkTxM8Z1JJFZzzjqLAOTG6AyUkormSWMO2AhdlygF/384Q==",
+      "path": "polly/7.2.0",
+      "hashPath": "polly.7.2.0.nupkg.sha512"
+    }
+  }
+}
