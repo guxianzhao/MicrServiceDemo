@@ -32,7 +32,6 @@ namespace MicrServiceDemo.Controllers
         [Route("/GetAllServices")]
         public async Task<List<string>> GetAllServicesAsync()
         {
-            throw new Exception("请求异常！");
             var consuleClient = new ConsulClient(consulConfig =>
             {
                 consulConfig.Address = new Uri("http://127.0.0.1:8500");
